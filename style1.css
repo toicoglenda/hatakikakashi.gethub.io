@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+	
+}
+
+body
+{
+
+  background-color: red;
+  background-size:cover;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+ font-family: monospace;
+
+}
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav 
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.main-nav li
+{
+    display: inline-block;
+    text-align: top;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    text-align: top;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    text-align: top;
+}
+
+
+.main-nav li a
+{
+    color: blue;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 100px;
+    font-size: 15px;
+    text-align: top;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+header
+{
+    background-image: url(bg.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    
+        <img src= "01.jpg"
+        style="width:1100px;height:500px;"
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+	border-radius: 100px;
+	
+}
+*{
+	box-sizing:border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+p
+{
+  font-size: 30px;
+  
+}
